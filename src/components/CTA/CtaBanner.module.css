@@ -1,0 +1,18 @@
+.container {
+  padding-left: 70px !important;
+}
+
+.banner {
+  background-color: blue !important;
+  border-radius: 20px !important;
+}
+
+.cta-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.cta-text {
+  font-size: 14px !important;
+  width: 468px;
+}

@@ -1,0 +1,50 @@
+.sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 70px;
+  z-index: 100;
+  top: 0;
+  background-color: #0d28a6;
+  overflow-x: hidden;
+  align-items: center;
+}
+
+.sideSection {
+  height: 65px;
+  width: 70px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 34px;
+  height: 34px;
+  background-color: #cfd4ed;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.link-text {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.link-text a {
+  padding: 15px 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.link:hover {
+  background-color: #cfd4ed;
+  color: #000;
+}

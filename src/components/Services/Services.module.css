@@ -1,0 +1,131 @@
+.services {
+  width: 100%;
+  position: relative;
+  padding: 50px 207px 100px 207px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.services-img {
+  width: 459px;
+  position: relative;
+  margin-right: 150px;
+}
+
+.box {
+  position: relative;
+  width: 374px;
+  height: 428px;
+  overflow: hidden;
+  left: 99px;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 360px;
+  height: 360px;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+.box .circle-4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  background-color: #0d28a6;
+  overflow: hidden;
+}
+
+.box .circle-4 img {
+  position: absolute;
+  top: -0;
+  left: 50%;
+  transform: translateX(-45%);
+  /* height: 562px;
+    width: 374px; */
+}
+
+.box img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-47%);
+  /* height: 562px;
+    width: 374px; */
+}
+
+.circle-1 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 133px;
+  height: 133px;
+  background-color: #92d094;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.circle-2 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-color: #f9cc00;
+  position: absolute;
+  top: 336px;
+  left: 60px;
+  z-index: 100;
+}
+
+.circle-3 {
+  border-radius: 50%;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #fa2c5a;
+  position: absolute;
+  top: 43px;
+  left: 383px;
+}
+
+.services-desc {
+  width: 468px;
+  transform: translateY(-75px);
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.services-desc p {
+  line-height: 20px;
+  width: 468px;
+}
+
+.services-desc ul {
+  height: 24px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.services-desc ul li {
+  line-height: 20px;
+  margin-bottom: 1rem;
+}
+
+.services-desc ul li img {
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 0.25rem;
+  margin-right: 1rem;
+}

@@ -1,0 +1,7 @@
+.appbar {
+  height: 65px;
+  background-color: #fff;
+  box-shadow: -1px 14px 25px -2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -1px 14px 25px -2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: -1px 14px 25px -2px rgba(0, 0, 0, 0.25);
+}

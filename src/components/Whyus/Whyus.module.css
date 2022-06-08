@@ -1,0 +1,82 @@
+.whyus {
+  padding-top: 100px;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.whyus p {
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card-header {
+  padding: 1rem 1rem 0.5rem !important;
+  background-color: #fff !important;
+  border-bottom: none !important;
+}
+
+.card-title {
+  font-size: 16px !important;
+  color: #000;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.row {
+  justify-content: space-between;
+}
+
+.col {
+  width: 268px;
+}
+
+.col:not:nth-child(4) {
+  margin-right: 32px;
+}
+
+.card-header {
+  background-color: #fff;
+  border-bottom: 0;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.whyus-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whyus-icon.thumbs {
+  background-color: #f9cc00;
+}
+
+.whyus-icon.tag {
+  background-color: #fa2c5a;
+}
+.whyus-icon.clock {
+  background-color: #0d28a6;
+}
+.whyus-icon.award {
+  background-color: #5cb85f;
+}
+
+.card-img-top {
+  width: 20px;
+  height: 20px;
+}

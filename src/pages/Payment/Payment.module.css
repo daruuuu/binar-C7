@@ -1,0 +1,66 @@
+.content {
+  padding-top: 30px;
+}
+
+.layout {
+  padding-right: 0 !important;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #198754;
+  border-radius: 25px;
+}
+
+.invoice-holder {
+  width: 60% !important;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 10px 10px 27px 0px rgba(0, 0, 0, 0.21);
+  background-color: #fff;
+}
+
+.myButton {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #0d29a6;
+  display: inline-block;
+  cursor: pointer;
+  color: #0d29a6;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 15px;
+}
+.myButton:hover {
+  background-color: transparent;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.doc-holder {
+  margin-top: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  height: 40vh;
+  border-radius: 10px;
+  background-image: url(../../../public/assets/sample.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
